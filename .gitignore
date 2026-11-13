@@ -1,0 +1,27 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+secrets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies and build output
+node_modules/
+build/
+dist/
+.dart_tool/
+.gradle/
+Pods/
+*.log
